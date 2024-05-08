@@ -24,8 +24,8 @@ function App() {
   return (
     <div className="app">
       <div className="container">
-        <img src="./img/fondo.png" alt="" className="image-one" />
-        <img src="./img/fondo2.png" alt="" className="image-overlapping" />
+        <img src="/fondo.png" alt="" className="image-one" />
+        <img src="/fondo2.png" alt="" className="image-overlapping" />
       </div>
       <form onSubmit={handleSubmit} className="form">
         <input
